@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Shutter Cloud</title>
+</head>
+
+<body>
+    <section class="home">
+        <div class="home-screen">
+            <div class="nav">
+                <div class="nav-img">
+                    <img src="https://www.shuttercloud.in/logo.svg" alt="image">
+                    <p>Shutter Cloud</p>
+
+                </div>
+                <!-- <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul> -->
+                <div class="nav-slide">
+
+                    <div class="nav-btn">
+                        <button>
+                            Get Started
+                        </button>
+                    </div>
+                    <div class="menu" id="menu">
+                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                        <div class="menu-info" id="menu-info" style="display: none;">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="home-info">
+                <div class="home-content">
+
+                    <h2>Reliable and Fast Cloud <br> Storage</h2>
+                    <h3>Available 24X7 at just <span style="color: yellow;">₹1/GB per Year</span></h3>
+
+                    <p> Shutter Storage provides reliable and affordable unlimited cloud storage for photographers,
+                        while Shutter Finder allows event attendees to quickly access their photographs.</p>
+                </div>
+                <div class="small-btn">
+                    <div class="event-btn bg-white">
+                        <i class="fa-solid fa-cloud text-[var(--bg1)]"></i>
+                        <button class="text-[var(--bg1)]">
+                            <p>Start Storing</p>
+                        </button>
+                    </div>
+                    <div class="event-btn bg-transparent border-2 border-solid border-white">
+                        <i class="fa-regular fa-calendar-plus text-white"></i>
+                        <button class="text-white">
+                            <p>Create Events</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-screen-menu">
+
+            </div>
+        </div>
+
+        <!-- //For products info -->
+        <div class="products">
+            <div class="products-heading">
+                <h2 class="title">Our Products</h2>
+                <p>Discover what makes Shutter Cloud stand out</p>
+            </div>
+            <div class="ph-points">
+
+                <div class="p-info hv">
+                    <div class="products-points bg-[var(--bg1)]">
+                        <div class="points-img">
+                            <i class="fa-solid fa-camera"></i>
+                            <p>Shutter Storage</p>
+                        </div>
+                        <div class="points-content">
+                            <p>Reliable and affordable cloud storage for photographers only</p>
+                        </div>
+                    </div>
+                    <div class="points-info">
+                        <div class="points-info-box">
+                            <i class="fa-solid fa-dollar-sign text-[var(--bg1)]"></i>
+                            <div class="box-info">
+                                <p>Affordable Storage</p>
+                                <p id="box-child">At just ₹1/GB Year</p>
+                            </div>
+                        </div>
+                        <div class="points-info-box">
+                            <i class="fa-solid fa-cloud text-[var(--bg1)]"></i>
+                            <div class="box-info">
+                                <p>Unlimited Storage</p>
+                                <p id="box-child">Store as much as you need</p>
+                            </div>
+                        </div>
+                        <div class="points-info-box">
+                            <i class="bx bx-time-five text-[var(--bg1)]"></i>
+                            <div class="box-info">
+                                <p>24x7 Access</p>
+                                <p id="box-child">Always available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-info hv">
+                    <div class="products-points bg-[var(--bg2)]">
+                        <div class="points-img">
+                            <i class="fa-solid fa-camera"></i>
+                            <p>Shutter Storage</p>
+                        </div>
+                        <div class="points-content">
+                            <p>Reliable and affordable cloud storage for photographers only</p>
+                        </div>
+                    </div>
+                    <div class="points-info">
+                        <div class="points-info-box">
+                            <i class="fa-solid fa-bolt text-[var(--bg3)]"></i>
+                            <div class="box-info">
+                                <p>Affordable Storage</p>
+                                <p id="box-child">At just ₹1/GB Year</p>
+                            </div>
+                        </div>
+                        <div class="points-info-box">
+                            <i class="bx bx-dollar text-[var(--bg3)]"></i>
+                            <div class="box-info">
+                                <p>Unlimited Storage</p>
+                                <p id="box-child">Store as much as you need</p>
+                            </div>
+                        </div>
+                        <div class="points-info-box">
+                            <i class="bx bx-smile text-[var(--bg3)]"></i>
+                            <div class="box-info">
+                                <p>24x7 Access</p>
+                                <p id="box-child">Always available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Working info -->
+
+
+        <div class="working-info">
+            <h2 class="title">How It Works</h2>
+            <p> Discover the simple steps to get started with our services</p>
+        </div>
+        <div class="working">
+            <div class="working-text">
+                <div class="working-btn">
+                    <button class="text-white bg-[var(--bg1)]">Shutter Storage</button>
+                    <button class="text-black bg-white">Shutter Finder</button>
+                </div>
+                <div class="working-steps">
+                    <div class="wk-table">
+                        <p>Shutter Storage</p>
+                    </div>
+                    <div class="wk-steps">
+                        <div class="wk-count">
+                            <i class="bx bxs-user-plus text-[var(--bg1)]"></i>
+                            <div class="wk-content">
+                                <div class="wk-icon">
+                                    <h4> Step 1</h4>
+                                </div>
+                                <p>Sign up for Shutter Storage and create your account</p>
+
+
+                            </div>
+                        </div>
+                        <div class="wk-count">
+                            <i class="bx bx-cloud-upload text-[var(--bg1)]"></i>
+                            <div class="wk-content">
+                                <div class="wk-icon">
+                                    <h4>Step 2</h4>
+                                </div>
+                                <p>Upload your assets (photos, videos, zip files) securely</p>
+
+                            </div>
+                        </div>
+                        <div class="wk-count">
+                            <i class="bx bx-dollar text-[var(--bg1)]"></i>
+                            <div class="wk-content">
+                                <div class="wk-icon">
+                                    <h4>Step 3</h4>
+                                </div>
+                                <p>Enjoy peace of mind and cost savings with our affordable storage</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- pricing info -->
+
+
+        <div class="pricing">
+            <div class="pricing-info">
+                <h2 class="title">Pricing Plans</h2>
+                <p>Choose the perfect plan for your photography needs</p>
+            </div>
+            <div class="pricing-container">
+                <div class="pricing-box hv">
+                    <div class="pricing-slide">
+
+                        <div class="pricing-gb">
+                            <button>Per GB</button>
+                        </div>
+                        <div class="pricing-content">
+                            <i class="bx bx-cloud"></i>
+                            <h4>Shutter Cloud</h4>
+                            <p>Affordable and reliable cloud storage for photographers</p>
+                        </div>
+                    </div>
+                    <div class="pricing-points">
+                        <ul class="text-[var(--bg1)]">
+                            <li><i class="bx bx-dollar"></i>1 ₹/GB per year</li>
+                            <li><i class="bx bx-download"></i>Unlimited downloads</li>
+                            <li> <i class="bx bx-cloud"></i>Secure cloud backup</li>
+                            <li> <i class="fa-solid fa-bolt"></i>Fast upload and download speeds</li>
+                            <li><i class="fa-solid fa-user-group"></i>24 x 7 Quality Support</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn">
+                        <button class="bg-[var(--bg1)]">Start Storing</button>
+                    </div>
+                </div>
+                <div class="pricing-box hv">
+                    <div class="pricing-slide bg-[var(--bg2)]">
+
+                        <div class="pricing-gb">
+                            <button>Commission-based</button>
+                        </div>
+                        <div class="pricing-content">
+                            <i class="bx bx-cloud"></i>
+                            <h4>Shutter Cloud</h4>
+                            <p>Affordable and reliable cloud storage for photographers</p>
+                        </div>
+                    </div>
+                    <div class="pricing-points">
+                        <ul class="text-black">
+                            <li><i class="bx bx-dollar"></i>Set your own photo download prices</li>
+                            <li><i class="fa-solid fa-bolt"></i>Dynamic pricing for bulk and watermarked images</li>
+                            <li><i class="fa-solid fa-percent"></i></i>Commissions as low as 5% - we only get paid when
+                                you do</li>
+                            <li> <i class="bx bx-wallet-alt"></i>Customers pay for downloads directly</li>
+                            <li><i class="fa-solid fa-user-group"></i>Expand your client base with event attendees</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn">
+                        <button class="bg-[var(--bg2)]">Start Storing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Trust and Security -->
+
+
+        <div class="trust-content">
+            <h2>Trust and Security</h2>
+            <div class="trust-box">
+
+                <div class="trust-slide">
+                    <div class="trust-factor">
+                        <h3>Data Protection</h3>
+                        <p> Ensuring the safety and integrity of your data</p>
+                    </div>
+                    <div class="trust-points">
+                        <div class="trust-pt">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div class="trust-info">
+                                <h4>Multiple Backups</h4>
+                                <p>3 backups in multiple geographical locations for disaster recovery</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="fa-solid fa-database"></i>
+                            <div class="trust-info">
+                                <h4>Large Scale Management</h4>
+                                <p>Managing over 1 Petabyte of photographers data</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="fa-solid fa-lock"></i>
+                            <div class="trust-info">
+                                <h4>Impeccable Track Record</h4>
+                                Zero incidents of data corruption and data breach</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <div class="trust-info">
+                                <h4>Regular Audits</h4>
+                                <p>Quarterly security audits by third-party experts</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="trust-slide">
+                    <div class="trust-factor">
+                       <h3 class="title2">Trusted by Many</h3>
+                       <p>100+ satisfied customers across India</p>
+                    </div>
+                    <div class="trust-points">
+                        <div class="trust-pt">
+                            <i class="fa-solid fa-user-group"></i>
+                            <div class="trust-info">
+                                <h4>99.9% Uptime</h4>
+                                <p>Ensuring your data is always accessible when you need it</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                            <div class="trust-info">
+                                <h4>24x7 Monitoring</h4>
+                                <p>Continuous system monitoring for immediate issue resolution</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="bx bx-time-five"></i>
+                            <div class="trust-info">
+                                <h4>End-to-End Encryption</h4>
+                                <p>Your data is encrypted in transit and at rest for maximum security</p>
+                            </div>
+                        </div>
+                        <div class="trust-pt">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div class="trust-info">
+                                <h4>Regular Audits</h4>
+                                <p>Quarterly security audits by third-party experts</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container"> </div>
+        <div class="reach-out">
+            <div class="reach-out-info">
+
+                <i class="bx bx-phone"></i>
+                <h2 class="title">Reach Out to Us</h2>
+                <p> Click the button below to connect with us.</p>
+            </div>
+            <div class="rout-btn">
+                <button class="bg-[var(--bg2)]"><i class="fa-brands fa-whatsapp"></i><a href="#">Whatsapp</a></button>
+                <button class="bg-black"><i class="bx bx-phone"></i><a href="#">Call</a></button>
+            </div>
+        </div>
+
+        <div class="container"> </div>
+
+        <div class="faqs">
+            <h3 >Frequent Asked Question</h3>
+            <div class="faqs-list">
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">What is Shutter Cloud ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Shutter Cloud is a cloud storage and photo sharing platform designed specifically for photographers. It offers secure storage, easy sharing options, and tools tailored for managing and showcasing your photography portfolio.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">How much does Shutter Storage code ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Shutter Storage at just Rs 1/GB per year.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">How does Shutter Finder work ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Shutter Finder allows event photographers to upload and share photos with attendees using QR codes. After an event, photographers can upload their photos to a Shutter Finder album and generate a unique QR code. Attendees can then scan this code to access and download their photos.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">Is my data secure with Shutter Cloud ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Yes, we use multiple backups and advanced security measures to protect your data. This includes end-to-end encryption, regular security audits, and compliance with industry-standard data protection regulations. Your photos and personal information are always kept private and secure.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">What file formats does Shutter Cloud support ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Shutter Cloud supports a wide range of image formats including JPEG, PNG, RAW files from major camera manufacturers, TIFF, and more. We also support video files, making it a comprehensive solution for all your visual content.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">How can I access my photos on Shutter Cloud ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">You can access your photos on Shutter Cloud through our web interface on any browser. This ensures you have access to your entire photo library wherever you go.</p>
+                </div>
+                <div class="faqs-question">
+                    <i class="fa-solid fa-angle-down angle-down angle-toggle"></i>
+                    <p class="faqs-q">Does Shutter Cloud offer any editing tools ?</p>
+                    <div class="line"></div>
+                    <p class="faqs-a">Editing tools are coming soon..</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">  </div>
+        <div class="end">
+
+            <div class="about-info">
+                <div class="st-desc">
+                <h3>Shutter Cloud</h3>
+                <p>Reliable cloud storage and photo sharing for photographers</p>
+            </div>
+            <div class="contact-desc">
+                <h3>Contact Information</h3>
+                <div class="contact-info">
+                    <div class="c-i">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>1st Floor, Mahadev Complex, Janardan Nagar, Lohegaon, Pune.</p>
+                    </div>
+                    <div class="c-i">
+                        <i class="bx bx-phone"></i>
+                        <p>+91 9767417427, +91 7840903848</p>
+                    </div>
+                </div>
+            </div>
+            <div class="policies-desc">
+                <h3>Policies</h3>
+                <ul>
+                    <li>Privacy Pollicy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Cancellations and Refund</li>
+                    <li>Shipping and Delivery</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">
+            <div class="end-line"></div>
+            <p>&copy Shutter Cloud. All rights reserved</p>
+        </div>
+    </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
