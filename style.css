@@ -13,7 +13,7 @@
 .home-screen
 {
     background-color: var(--bg1);
-    height:90vh;
+    min-height:90vh;
 }
 
 .nav{
@@ -101,6 +101,7 @@
 }
 .small-btn{
     display:flex;
+    /* flex-direction:column; */
     justify-content:center;
     align-content:center;
     gap:2em;
@@ -455,6 +456,7 @@ align-items:center;
 .reach-out{
     
     /* background-color: pink; */
+    margin:0 1em;
 }
 .reach-out-info{
     /* background-color:skyblue; */
@@ -616,6 +618,11 @@ padding:0em 0em;
         display:flex;
         flex-direction:column;
     }
+    .small-btn{
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+}
     .p-info{
         width:90vw;
     }
@@ -680,7 +687,9 @@ padding:0em 0em;
     /* background-color:pink; */
     width:80%;
 }
- 
+.faqs{
+    width:80%;
+}
     
 }
 
@@ -742,5 +751,3 @@ display:inline-block;
     font-size:14px;
 }
 }
- 
- 
